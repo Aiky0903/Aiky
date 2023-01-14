@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author Aiky
- *
- */
-module Aiky {
-}
