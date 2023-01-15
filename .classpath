@@ -7,5 +7,6 @@
 	</classpathentry>
 	<classpathentry kind="src" path="Sem2Week5"/>
 	<classpathentry kind="src" path="Sem2Week3"/>
+	<classpathentry kind="src" path="ExtraMaterialWeek5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
