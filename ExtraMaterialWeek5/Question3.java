@@ -7,7 +7,7 @@ public class Question3 {
 	static int Faculty, Associate, Assistant, Full;
 
 	public static void analyse() throws Exception{
-		FileReader f1 = new FileReader("UniversitySalary.txt");
+		FileReader f1 = new FileReader("Question3Salary.txt");
 		Scanner reader = new Scanner (f1);
 		
 		while(reader.hasNextLine()) {
