@@ -22,7 +22,7 @@ public class Question2 {
 		sc.close();
 	}
 
-	public static void getYearFile() throws Exception {
+	public static void setYearFile() throws Exception {
 		String FileName = "babynamesranking" + year + ".txt";
 		currentFile = new File(FileName);
 	}
@@ -55,16 +55,15 @@ public class Question2 {
 	}
 	
 	public static void analyse() {
-		if(list.contains(name)) {
+		if(list.contains(name))
 			System.out.println(name + " is ranked #" + (list.indexOf(name)+ 1) + " in year " + year);
-		}else {
-			System.out.println("The name " + name + "is not ranked in year " + year);
-		}
+		else 
+			System.out.println("The name " + name + " is not ranked in year " + year);
 	}
 
 	public static void main(String[] args) throws Exception {
 		getDetails();
-		getYearFile();
+		setYearFile();
 		setPossibleNames();
 		analyse();
 	}
