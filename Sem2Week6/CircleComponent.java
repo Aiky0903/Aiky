@@ -7,8 +7,8 @@ public class CircleComponent extends JComponent {
 	
 	private static final int CIRCLE_X = 100;
 	private static final int CIRCLE_Y = 100;
-	private static final int CIRCLE_WIDTH = 200;
-	private static final int CIRCLE_HEIGHT = 200;
+	private static final int CIRCLE_WIDTH = 100;
+	private static final int CIRCLE_HEIGHT = 100;
 
 	private Ellipse2D circle;
 	

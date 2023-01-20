@@ -22,6 +22,7 @@ public class RectangleDraw
       final RectangleComponent component = new RectangleComponent();
       final CircleComponent c1 = new CircleComponent();
       frame.add(component);
+      frame.setVisible(true);
       frame.add(c1);
       frame.setVisible(true);
    }

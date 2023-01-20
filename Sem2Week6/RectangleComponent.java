@@ -8,8 +8,8 @@ public class RectangleComponent extends JComponent
 {  
    private static final int BOX_X = 100;
    private static final int BOX_Y = 100;
-   private static final int BOX_WIDTH = 50;
-   private static final int BOX_HEIGHT = 50;
+   private static final int BOX_WIDTH = 100;
+   private static final int BOX_HEIGHT = 100;
 
    private Rectangle box;
 
