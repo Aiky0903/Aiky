@@ -7,7 +7,6 @@ public class Quiz implements Measurable
     	this.score = score;
     	this.grade = grade;
     }
-    
     public double getScore() {
 		return score;
 	}
@@ -20,12 +19,10 @@ public class Quiz implements Measurable
 	public void setGrade(String grade) {
 		this.grade = grade;
 	}
-	
 	@Override
 	public double getMeasure() {
 		return score;
 	}
-	
 	@Override
 	public String toString() {
 		return grade;
