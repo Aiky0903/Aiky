@@ -1,7 +1,7 @@
 import java.io.PrintWriter;
 import java.util.Random;
 
-public class Question1 {
+public class Week5Question1 {
 	static Random ran = new Random();
 
 	public static String generateRank() {

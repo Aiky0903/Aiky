@@ -3,7 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 import java.util.StringTokenizer;
 
-public class Question2 {
+public class Week5Question2 {
 	static String name;
 	static String gender;
 	static String year;

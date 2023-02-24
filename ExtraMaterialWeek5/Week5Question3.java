@@ -1,7 +1,7 @@
 import java.io.FileReader;
 import java.util.Scanner;
 
-public class Question3 {
+public class Week5Question3 {
 	
 	static long FacultyTotal, AssistantTotal, AssociateTotal, FullTotal;
 	static int Faculty, Associate, Assistant, Full;
