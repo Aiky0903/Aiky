@@ -62,6 +62,7 @@ public class Question1 extends JFrame {
 	Question1() {
 		resizer = new CircleResizerComponent();
 		add(resizer);
+		setLocationRelativeTo(null);
 		pack();
 		setVisible(true);
 	}
