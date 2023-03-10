@@ -12,5 +12,7 @@
 	<classpathentry kind="src" path="Sem2Week6"/>
 	<classpathentry kind="src" path="Sem2Week9"/>
 	<classpathentry kind="src" path="Sem2Week8"/>
+	<classpathentry kind="src" path="Sem2Week10"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.junit.JUNIT_CONTAINER/5"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>

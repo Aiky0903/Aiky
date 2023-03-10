@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 
 import javax.swing.*;
 
-public class Question3 extends JFrame implements ActionListener{
+public class Question3Week9 extends JFrame implements ActionListener{
 	JLabel userLabel, fontLabel, sizeLabel;
 	JButton previewButton;
 	JTextField stringField, sizeField, outputField;
@@ -15,7 +15,7 @@ public class Question3 extends JFrame implements ActionListener{
 	Font font;
 	int style, size;
 
-	public Question3() {
+	public Question3Week9() {
 		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		this.setLayout(new FlowLayout(FlowLayout.CENTER,10,8));
 		this.setSize(new Dimension(250,300));
@@ -85,6 +85,6 @@ public class Question3 extends JFrame implements ActionListener{
 	}
 	
 	public static void main(String[] args) {
-		new Week5Question3();
+		new Question3Week9();
 	}
 }
